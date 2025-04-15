@@ -1,0 +1,12 @@
+{
+    "name": "gerrad-landing-page",
+    "version": "1.0.0",
+    "description": "Landing page styled with Tailwind CSS",
+    "main": "index.html",
+    "scripts": {
+        "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.17"
+    }
+}
